@@ -36,7 +36,6 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=docker
-      - PLEX_CLAIM=claim-jYCmXMnm7E2h9YHweYuX
     volumes:
       - ./plex:/config
       - /media/PlexMedia/TVShows:/tv
